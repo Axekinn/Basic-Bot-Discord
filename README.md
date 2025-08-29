@@ -1,4 +1,4 @@
-# 🤖 Simple Bot Discord
+# 🤖 Simple Discord Bot
 
 <div align="center">
 
@@ -7,101 +7,101 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-6.2.0-blue?style=for-the-badge)]()
 
-*Un bot Discord moderne et polyvalent avec système d'XP, commandes personnalisées, modération et bien plus !*
+*A modern and versatile Discord bot with XP system, custom commands, moderation and much more!*
 
 </div>
 
 ---
 
-## 📋 Table des Matières
+## 📋 Table of Contents
 
-- [✨ Fonctionnalités Principales](#-fonctionnalités-principales)
-- [🚀 Installation Rapide](#-installation-rapide)
+- [✨ Main Features](#-main-features)
+- [🚀 Quick Installation](#-quick-installation)
 - [⚙️ Configuration](#️-configuration)
-- [📚 Modules et Commandes](#-modules-et-commandes)
-- [🎯 Guide d'Utilisation](#-guide-dutilisation)
-- [🔧 Configuration Avancée](#-configuration-avancée)
-- [🤝 Contribution](#-contribution)
-- [📄 Licence](#-licence)
+- [📚 Modules and Commands](#-modules-and-commands)
+- [🎯 Usage Guide](#-usage-guide)
+- [🔧 Advanced Configuration](#-advanced-configuration)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## ✨ Fonctionnalités Principales
+## ✨ Main Features
 
-### 🏆 **Système d'Expérience et Niveaux**
-- **Progression automatique** : Gain d'XP par message envoyé
-- **Système de niveaux** avec 50+ paliers
-- **Rôles automatiques** par niveau
-- **Leaderboard interactif** avec classement
-- **Commandes administrateur** pour gérer l'XP
+### 🏆 **Experience and Level System**
+- **Automatic progression**: Gain XP per message sent
+- **Level system** with 50+ tiers
+- **Automatic roles** by level
+- **Interactive leaderboard** with ranking
+- **Admin commands** to manage XP
 
-### 🎮 **Commandes Personnalisées**
-- **Créateur de commandes** intuitif avec interface interactive
-- **Commandes globales et par serveur**
-- **Système de recherche** et filtrage avancé
-- **Export des commandes** en fichier Markdown
-- **Gestion complète** via interface moderne
+### 🎮 **Custom Commands**
+- **Intuitive command creator** with interactive interface
+- **Global and server commands**
+- **Advanced search** and filtering system
+- **Export commands** to Markdown file
+- **Complete management** via modern interface
 
-### 🔨 **Modération Avancée**
-- **Kick/Ban** avec raisons et durées
-- **Mute temporaire** avec gestion automatique
-- **Système d'avertissements** avec historique
-- **Nettoyage de messages** en masse
-- **Logs de modération** détaillés
+### 🔨 **Advanced Moderation**
+- **Kick/Ban** with reasons and durations
+- **Temporary mute** with automatic management
+- **Warning system** with history
+- **Bulk message cleanup**
+- **Detailed moderation logs**
 
-### 🎉 **Système de Giveaways**
-- **Création facile** de concours
-- **Gestion automatique** des tirages
-- **Système de réactions** pour participer
-- **Notifications** automatiques des résultats
+### 🎉 **Giveaway System**
+- **Easy creation** of contests
+- **Automatic management** of draws
+- **Reaction system** to participate
+- **Automatic notifications** of results
 
-### 🎲 **Commandes Fun**
-- **Pierre-Papier-Ciseaux** interactif
-- **Pile ou Face** avec boutons
-- **Générateur de faits** aléatoires
-- **Blagues** et divertissement
+### 🎲 **Fun Commands**
+- **Interactive Rock-Paper-Scissors**
+- **Coin Flip** with buttons
+- **Random fact generator**
+- **Jokes** and entertainment
 
-### 🎵 **Salon Vocal Temporaire**
-- **Création automatique** de salons vocaux
-- **Gestion des permissions** personnalisée
-- **Suppression automatique** quand vide
+### 🎵 **Temporary Voice Channels**
+- **Automatic creation** of voice channels
+- **Custom permission management**
+- **Automatic deletion** when empty
 
-### 📊 **Système de Votes**
-- **Création de sondages** interactifs
-- **Modification** des votes existants
-- **Résultats** en temps réel
+### 📊 **Voting System**
+- **Interactive poll creation**
+- **Modification** of existing votes
+- **Real-time results**
 
-### 🔍 **Informations et Utilitaires**
-- **Informations serveur** détaillées
-- **Profil utilisateur** complet
-- **Informations bot** et statistiques
-- **Menu contextuel** pour actions rapides
+### 🔍 **Information and Utilities**
+- **Detailed server information**
+- **Complete user profile**
+- **Bot information** and statistics
+- **Context menu** for quick actions
 
 ---
 
-## 🚀 Installation Rapide
+## 🚀 Quick Installation
 
-### 📋 Prérequis
-- **Python 3.8+** installé
-- **Bot Discord** créé sur le [Discord Developer Portal](https://discord.com/developers/applications)
-- **Git** (optionnel)
+### 📋 Prerequisites
+- **Python 3.8+** installed
+- **Discord Bot** created on [Discord Developer Portal](https://discord.com/developers/applications)
+- **Git** (optional)
 
 ### 📦 Installation
 
-1. **Cloner le repository**
+1. **Clone the repository**
 ```bash
 git clone https://github.com/Axekinn/Simple-Bot-Discord.git
 cd Simple-Bot-Discord
 ```
 
-2. **Installer les dépendances**
+2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Configuration des fichiers**
+3. **Configure files**
 ```bash
-# Copier les fichiers d'exemple
+# Copy example files
 cp .env.example .env
 cp config.json.example config.json
 cp commands.json.example commands.json
@@ -110,13 +110,13 @@ cp giveaways.json.example giveaways.json
 cp role_reactions.json.example role_reactions.json
 ```
 
-4. **Configurer le token**
+4. **Configure the token**
 ```bash
-# Éditer le fichier .env
-TOKEN=VOTRE_TOKEN_BOT_DISCORD
+# Edit the .env file
+TOKEN=YOUR_DISCORD_BOT_TOKEN
 ```
 
-5. **Lancer le bot**
+5. **Start the bot**
 ```bash
 python bot.py
 ```
@@ -125,401 +125,401 @@ python bot.py
 
 ## ⚙️ Configuration
 
-### 🔑 Fichier `.env`
+### 🔑 `.env` File
 ```env
-TOKEN=VOTRE_TOKEN_BOT_DISCORD
+TOKEN=YOUR_DISCORD_BOT_TOKEN
 ```
 
-### 📝 Fichier `config.json`
+### 📝 `config.json` File
 ```json
 {
   "prefix": "!",
-  "owner_id": "VOTRE_ID_DISCORD",
-  "description": "Un bot Discord simple et puissant",
-  "website": "https://votre-site.com/",
-  "discord_invite": "https://discord.gg/votre-invite",
-  "github": "https://github.com/votre-username/votre-repo"
+  "owner_id": "YOUR_DISCORD_ID",
+  "description": "A simple and powerful Discord bot",
+  "website": "https://your-website.com/",
+  "discord_invite": "https://discord.gg/your-invite",
+  "github": "https://github.com/your-username/your-repo"
 }
 ```
 
 ---
 
-## 📚 Modules et Commandes
+## 📚 Modules and Commands
 
-### 🏆 **Module XP (Experience)**
+### 🏆 **XP Module (Experience)**
 
-| Commande | Description | Permissions |
-|----------|-------------|-------------|
-| `/xp [membre]` | Affiche l'XP et le niveau d'un membre | Tous |
-| `/leaderboard` | Classement du serveur par niveau | Tous |
-| `/resetxp <membre>` | Remet à zéro l'XP d'un membre | Administrateur |
-| `/setwords <membre> <mots>` | Définit le nombre de mots total | Administrateur |
-| `/recalculatelevels` | Recalcule tous les niveaux | Administrateur |
-| `/xpinfo` | Informations sur le système d'XP | Tous |
-| `/milestones` | Affiche tous les paliers de niveaux | Tous |
-| `/setlevelup [salon]` | Configure le salon de notifications | Administrateur |
-| `/setlevelrole <niveau> <rôle>` | Assigne un rôle à un niveau | Administrateur |
-| `/updateallroles` | Met à jour tous les rôles par niveau | Administrateur |
+| Command | Description | Permissions |
+|---------|-------------|-------------|
+| `/xp [member]` | Shows XP and level of a member | Everyone |
+| `/leaderboard` | Server ranking by level | Everyone |
+| `/resetxp <member>` | Resets a member's XP | Administrator |
+| `/setwords <member> <words>` | Sets total word count | Administrator |
+| `/recalculatelevels` | Recalculates all levels | Administrator |
+| `/xpinfo` | Information about XP system | Everyone |
+| `/milestones` | Shows all level milestones | Everyone |
+| `/setlevelup [channel]` | Configures notification channel | Administrator |
+| `/setlevelrole <level> <role>` | Assigns a role to a level | Administrator |
+| `/updateallroles` | Updates all roles by level | Administrator |
 
-**🎯 Système de Progression**
-- **Gain d'XP** : 1 XP par mot écrit dans un message
-- **Cooldown** : 1 minute entre les gains d'XP
-- **Formule de niveau** : `niveau = floor(sqrt(mots_total / 100))`
-- **Niveaux maximum** : 50+ paliers disponibles
+**🎯 Progression System**
+- **XP Gain**: 1 XP per word written in a message
+- **Cooldown**: 1 minute between XP gains
+- **Level Formula**: `level = floor(sqrt(total_words / 100))`
+- **Maximum levels**: 50+ tiers available
 
-### 🛠️ **Module Commandes Personnalisées**
+### 🛠️ **Custom Commands Module**
 
-| Commande | Description | Permissions |
-|----------|-------------|-------------|
-| `/create_command` | Interface de création de commandes | Administrateur |
-| `/commands [scope] [filter]` | Navigateur de commandes interactif | Tous |
+| Command | Description | Permissions |
+|---------|-------------|-------------|
+| `/create_command` | Command creation interface | Administrator |
+| `/commands [scope] [filter]` | Interactive command browser | Everyone |
 
-**🎨 Fonctionnalités Avancées**
-- **Interface moderne** avec boutons et sélecteurs
-- **Recherche avancée** par nom, description ou contenu
-- **Export Markdown** des commandes
-- **Gestion par catégories** (globales/serveur)
-- **Système de pagination** intelligent
+**🎨 Advanced Features**
+- **Modern interface** with buttons and selectors
+- **Advanced search** by name, description or content
+- **Markdown export** of commands
+- **Category management** (global/server)
+- **Smart pagination** system
 
-### 🔨 **Module Modération**
+### 🔨 **Moderation Module**
 
-| Commande | Description | Permissions |
-|----------|-------------|-------------|
-| `/kick <utilisateur> [raison]` | Expulse un membre | Kick Members |
-| `/ban <utilisateur> [raison]` | Bannit un membre | Ban Members |
-| `/unban <utilisateur>` | Débannit un membre | Ban Members |
-| `/timeout <utilisateur> <durée>` | Met en sourdine temporaire | Moderate Members |
-| `/untimeout <utilisateur>` | Retire la sourdine | Moderate Members |
-| `/purge <nombre>` | Supprime des messages | Manage Messages |
-| `/warn <utilisateur> [raison]` | Avertit un membre | Kick Members |
+| Command | Description | Permissions |
+|---------|-------------|-------------|
+| `/kick <user> [reason]` | Kicks a member | Kick Members |
+| `/ban <user> [reason]` | Bans a member | Ban Members |
+| `/unban <user>` | Unbans a member | Ban Members |
+| `/timeout <user> <duration>` | Temporarily mutes | Moderate Members |
+| `/untimeout <user>` | Removes timeout | Moderate Members |
+| `/purge <number>` | Deletes messages | Manage Messages |
+| `/warn <user> [reason]` | Warns a member | Kick Members |
 
-**⚡ Fonctionnalités**
-- **Vérifications de sécurité** automatiques
-- **Logs détaillés** des actions
-- **Gestion des erreurs** complète
-- **Protection administrateur** intégrée
+**⚡ Features**
+- **Automatic security checks**
+- **Detailed action logs**
+- **Complete error handling**
+- **Built-in administrator protection**
 
-### 🎉 **Module Giveaways**
+### 🎉 **Giveaways Module**
 
-| Commande | Description | Permissions |
-|----------|-------------|-------------|
-| `/giveaway <durée> <prix>` | Crée un nouveau giveaway | Manage Messages |
-| `/gend <message_id>` | Termine un giveaway | Manage Messages |
-| `/greroll <message_id>` | Relance le tirage | Manage Messages |
+| Command | Description | Permissions |
+|---------|-------------|-------------|
+| `/giveaway <duration> <prize>` | Creates a new giveaway | Manage Messages |
+| `/gend <message_id>` | Ends a giveaway | Manage Messages |
+| `/greroll <message_id>` | Rerolls the draw | Manage Messages |
 
-**🎁 Fonctionnalités**
-- **Gestion automatique** des tirages
-- **Interface avec réactions** 🎉
-- **Notifications** des gagnants
-- **Sauvegarde persistante** des données
+**🎁 Features**
+- **Automatic draw management**
+- **Reaction interface** 🎉
+- **Winner notifications**
+- **Persistent data storage**
 
-### 🎮 **Module Fun**
+### 🎮 **Fun Module**
 
-| Commande | Description | Permissions |
-|----------|-------------|-------------|
-| `/randomfact` | Fait aléatoire en anglais | Tous |
-| `/coinflip` | Pile ou face interactif | Tous |
-| `/rps` | Pierre-papier-ciseaux | Tous |
+| Command | Description | Permissions |
+|---------|-------------|-------------|
+| `/randomfact` | Random fact in English | Everyone |
+| `/coinflip` | Interactive coin flip | Everyone |
+| `/rps` | Rock-paper-scissors | Everyone |
 
-**🎯 Jeux Interactifs**
-- **Interface avec boutons** Discord
-- **Animations** et réactions
-- **Système de scores** (à venir)
+**🎯 Interactive Games**
+- **Discord button interface**
+- **Animations** and reactions
+- **Score system** (coming soon)
 
-### 🔍 **Module Informations**
+### 🔍 **Information Module**
 
-| Commande | Description | Permissions |
-|----------|-------------|-------------|
-| `/help` | Liste des commandes disponibles | Tous |
-| `/botinfo` | Informations détaillées sur le bot | Tous |
-| `/serverinfo` | Informations sur le serveur | Tous |
-| `/whois <membre>` | Profil détaillé d'un membre | Tous |
-| `/ping` | Latence du bot | Tous |
-| `/invite` | Lien d'invitation du bot | Tous |
+| Command | Description | Permissions |
+|---------|-------------|-------------|
+| `/help` | List of available commands | Everyone |
+| `/botinfo` | Detailed bot information | Everyone |
+| `/serverinfo` | Server information | Everyone |
+| `/whois <member>` | Detailed member profile | Everyone |
+| `/ping` | Bot latency | Everyone |
+| `/invite` | Bot invitation link | Everyone |
 
-### 🎵 **Module Salon Vocal**
+### 🎵 **Voice Channel Module**
 
-| Commande | Description | Permissions |
-|----------|-------------|-------------|
-| `/voice setup <salon>` | Configure le système vocal | Administrator |
+| Command | Description | Permissions |
+|---------|-------------|-------------|
+| `/voice setup <channel>` | Configures voice system | Administrator |
 
-**🔊 Fonctionnalités**
-- **Création automatique** de salons temporaires
-- **Permissions personnalisées** par utilisateur
-- **Suppression automatique** à la déconnexion
+**🔊 Features**
+- **Automatic creation** of temporary channels
+- **Custom permissions** per user
+- **Automatic deletion** on disconnect
 
-### 📊 **Module Votes**
+### 📊 **Voting Module**
 
-| Commande | Description | Permissions |
-|----------|-------------|-------------|
-| `/vote_create <question>` | Crée un sondage | Manage Messages |
-| `/vote_edit <message_id>` | Modifie un vote existant | Manage Messages |
+| Command | Description | Permissions |
+|---------|-------------|-------------|
+| `/vote_create <question>` | Creates a poll | Manage Messages |
+| `/vote_edit <message_id>` | Edits an existing vote | Manage Messages |
 
-### 🎭 **Module Rôles par Réaction**
+### 🎭 **Role Reaction Module**
 
-**Configuration** via fichier `role_reactions.json`
-- **Attribution automatique** de rôles
-- **Interface avec réactions** personnalisées
-- **Gestion multi-messages**
+**Configuration** via `role_reactions.json` file
+- **Automatic role assignment**
+- **Custom reaction interface**
+- **Multi-message management**
 
 ---
 
-## 🎯 Guide d'Utilisation
+## 🎯 Usage Guide
 
-### 🏆 **Mise en Place du Système XP**
+### 🏆 **Setting Up XP System**
 
-1. **Configuration initiale**
+1. **Initial configuration**
 ```bash
-/setlevelup #niveau-up
+/setlevelup #level-up
 ```
 
-2. **Attribution de rôles par niveau**
+2. **Assign roles by level**
 ```bash
-/setlevelrole niveau:5 rôle:@Membre Actif
-/setlevelrole niveau:10 rôle:@Contributeur
-/setlevelrole niveau:25 rôle:@Expert
+/setlevelrole level:5 role:@Active Member
+/setlevelrole level:10 role:@Contributor
+/setlevelrole level:25 role:@Expert
 ```
 
-3. **Vérification du système**
+3. **System verification**
 ```bash
-/milestones  # Voir tous les paliers
-/xpinfo      # Informations détaillées
+/milestones  # See all milestones
+/xpinfo      # Detailed information
 ```
 
-### 🛠️ **Création de Commandes Personnalisées**
+### 🛠️ **Creating Custom Commands**
 
-1. **Lancer l'interface**
+1. **Launch interface**
 ```bash
 /create_command
 ```
 
-2. **Suivre l'assistant interactif**
-   - Choisir le scope (global/serveur)
-   - Définir le nom de la commande
-   - Ajouter la description
-   - Configurer la réponse
+2. **Follow interactive wizard**
+   - Choose scope (global/server)
+   - Define command name
+   - Add description
+   - Configure response
 
-3. **Tester et gérer**
+3. **Test and manage**
 ```bash
-/commands scope:server  # Voir les commandes du serveur
+/commands scope:server  # View server commands
 ```
 
-### 🔨 **Configuration de la Modération**
+### 🔨 **Moderation Setup**
 
-1. **Permissions recommandées**
+1. **Recommended permissions**
    - Kick Members
    - Ban Members
    - Manage Messages
    - Moderate Members
 
-2. **Utilisation type**
+2. **Typical usage**
 ```bash
-/warn @utilisateur raison:Spam
-/timeout @utilisateur durée:1h raison:Comportement inapproprié
-/purge nombre:10
+/warn @user reason:Spam
+/timeout @user duration:1h reason:Inappropriate behavior
+/purge number:10
 ```
 
 ---
 
-## 🔧 Configuration Avancée
+## 🔧 Advanced Configuration
 
-### 🗄️ **Base de Données**
+### 🗄️ **Database**
 
-Le bot utilise SQLite pour stocker :
-- **Données d'XP** : `xp_data.json`
-- **Commandes** : `commands.json`
-- **Giveaways** : `giveaways.json`
-- **Réactions** : `role_reactions.json`
+The bot uses SQLite to store:
+- **XP Data**: `xp_data.json`
+- **Commands**: `commands.json`
+- **Giveaways**: `giveaways.json`
+- **Reactions**: `role_reactions.json`
 
-### 📁 **Structure des Fichiers**
+### 📁 **File Structure**
 
 ```
 Simple-Bot-Discord/
-├── bot.py                 # Fichier principal
-├── requirements.txt       # Dépendances Python
-├── .env                  # Variables d'environnement
-├── config.json           # Configuration du bot
-├── commands.json         # Commandes personnalisées
-├── xp_data.json         # Données d'expérience
-├── giveaways.json       # Données des giveaways
-├── role_reactions.json  # Configuration rôles/réactions
-├── discord.log          # Logs du bot
-├── database/            # Base de données SQLite
+├── bot.py                 # Main file
+├── requirements.txt       # Python dependencies
+├── .env                  # Environment variables
+├── config.json           # Bot configuration
+├── commands.json         # Custom commands
+├── xp_data.json         # Experience data
+├── giveaways.json       # Giveaway data
+├── role_reactions.json  # Role/reaction configuration
+├── discord.log          # Bot logs
+├── database/            # SQLite database
 │   ├── __init__.py
 │   ├── database.db
 │   └── schema.sql
-└── cogs/                # Modules du bot
-    ├── xp.py           # Système d'expérience
-    ├── command_builder.py  # Commandes personnalisées
-    ├── moderation.py   # Modération
+└── cogs/                # Bot modules
+    ├── xp.py           # Experience system
+    ├── command_builder.py  # Custom commands
+    ├── moderation.py   # Moderation
     ├── giveaway.py     # Giveaways
-    ├── fun.py          # Commandes fun
-    ├── general.py      # Commandes générales
-    ├── voice_creator.py # Salons vocaux temporaires
-    ├── vote.py         # Système de votes
-    ├── whois.py        # Informations utilisateur
-    ├── role_reaction.py # Rôles par réaction
-    └── owner.py        # Commandes propriétaire
+    ├── fun.py          # Fun commands
+    ├── general.py      # General commands
+    ├── voice_creator.py # Temporary voice channels
+    ├── vote.py         # Voting system
+    ├── whois.py        # User information
+    ├── role_reaction.py # Role reactions
+    └── owner.py        # Owner commands
 ```
 
-### 🔐 **Sécurité**
+### 🔐 **Security**
 
-- ✅ **Token sécurisé** dans `.env`
-- ✅ **Fichiers sensibles** dans `.gitignore`
-- ✅ **Vérifications de permissions** sur toutes les commandes
-- ✅ **Protection contre** les boucles infinies
-- ✅ **Gestion d'erreurs** complète
+- ✅ **Secure token** in `.env`
+- ✅ **Sensitive files** in `.gitignore`
+- ✅ **Permission checks** on all commands
+- ✅ **Protection against** infinite loops
+- ✅ **Complete error handling**
 
 ### 🚀 **Performance**
 
-- **Base de données locale** SQLite pour rapidité
-- **Cache en mémoire** pour les données fréquentes
-- **Chargement asynchrone** des modules
-- **Optimisation** des requêtes Discord API
+- **Local SQLite database** for speed
+- **In-memory cache** for frequent data
+- **Asynchronous loading** of modules
+- **Discord API optimization**
 
 ---
 
-## 🔧 Personnalisation
+## 🔧 Customization
 
-### 🎨 **Modifier les Couleurs**
+### 🎨 **Modify Colors**
 ```python
-# Dans chaque cog, modifier les couleurs d'embed
-embed = discord.Embed(color=0x3498db)  # Bleu
-embed = discord.Embed(color=0xe74c3c)  # Rouge
-embed = discord.Embed(color=0x2ecc71)  # Vert
+# In each cog, modify embed colors
+embed = discord.Embed(color=0x3498db)  # Blue
+embed = discord.Embed(color=0xe74c3c)  # Red
+embed = discord.Embed(color=0x2ecc71)  # Green
 ```
 
-### 🏆 **Personnaliser le Système XP**
+### 🏆 **Customize XP System**
 ```python
-# Dans cogs/xp.py, ligne ~50
-XP_PER_WORD = 1           # XP gagné par mot
-XP_COOLDOWN = 60          # Cooldown en secondes
+# In cogs/xp.py, line ~50
+XP_PER_WORD = 1           # XP gained per word
+XP_COOLDOWN = 60          # Cooldown in seconds
 LEVEL_FORMULA = lambda w: math.floor(math.sqrt(w / 100))
 ```
 
-### 🎭 **Ajouter des Commandes**
+### 🎭 **Add Commands**
 ```python
-# Créer un nouveau fichier dans cogs/
-# Suivre le template dans cogs/template.py
+# Create a new file in cogs/
+# Follow template in cogs/template.py
 ```
 
 ---
 
-## 🛡️ Support et Dépannage
+## 🛡️ Support and Troubleshooting
 
-### ❓ **Problèmes Courants**
+### ❓ **Common Issues**
 
-**Bot hors ligne ?**
-- Vérifier le token dans `.env`
-- Vérifier les permissions du bot
-- Consulter `discord.log` pour les erreurs
+**Bot offline?**
+- Check token in `.env`
+- Check bot permissions
+- Check `discord.log` for errors
 
-**Commandes ne fonctionnent pas ?**
-- Vérifier les permissions du bot
-- Utiliser `/` pour les slash commands
-- Vérifier la configuration des intents
+**Commands not working?**
+- Check bot permissions
+- Use `/` for slash commands
+- Check intents configuration
 
-**Système XP inactif ?**
-- Vérifier les permissions `message_content`
-- Vérifier que les intents sont activés
-- Consulter les logs pour erreurs
+**XP system inactive?**
+- Check `message_content` permissions
+- Verify intents are enabled
+- Check logs for errors
 
-### 📞 **Obtenir de l'Aide**
+### 📞 **Get Help**
 
-- 🐛 **Signaler un bug** : [Issues GitHub](https://github.com/Axekinn/Simple-Bot-Discord/issues)
-- 💬 **Discord** : [Rejoindre le serveur](https://discord.gg/CUpf57y5Vg)
-- 📧 **Email** : axekinn@proton.me
+- 🐛 **Report a bug**: [GitHub Issues](https://github.com/Axekinn/Simple-Bot-Discord/issues)
+- 💬 **Discord**: [Join server](https://discord.gg/CUpf57y5Vg)
+- 📧 **Email**: axekinn@proton.me
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-Nous accueillons chaleureusement les contributions ! 
+We warmly welcome contributions! 
 
-### 📝 **Comment Contribuer**
+### 📝 **How to Contribute**
 
-1. **Fork** le repository
-2. **Créer** une branche feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** les changements (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** vers la branche (`git push origin feature/AmazingFeature`)
-5. **Ouvrir** une Pull Request
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
+3. **Commit** changes (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** to branch (`git push origin feature/AmazingFeature`)
+5. **Open** a Pull Request
 
-### 🎯 **Ce qu'on recherche**
+### 🎯 **What We're Looking For**
 
-- 🐛 **Corrections de bugs**
-- ✨ **Nouvelles fonctionnalités**
-- 📚 **Amélioration de la documentation**
-- 🎨 **Améliorations UI/UX**
-- 🔧 **Optimisations de performance**
+- 🐛 **Bug fixes**
+- ✨ **New features**
+- 📚 **Documentation improvements**
+- 🎨 **UI/UX enhancements**
+- 🔧 **Performance optimizations**
 
 ### 📋 **Guidelines**
 
-- Suivre le style de code existant
-- Tester toutes les nouvelles fonctionnalités
-- Documenter le code avec des commentaires
-- Respecter les conventions de nommage
+- Follow existing code style
+- Test all new features
+- Document code with comments
+- Respect naming conventions
 
 ---
 
-## 🏆 Contributeurs
+## 🏆 Contributors
 
-Un grand merci à tous les contributeurs qui ont aidé à améliorer ce bot !
+A big thank you to all contributors who helped improve this bot!
 
 <!-- Contributors section will be auto-generated -->
 
 ---
 
-## 📊 Statistiques
+## 📊 Statistics
 
-- ⭐ **Fonctionnalités** : 50+ commandes
-- 🔧 **Modules** : 12 cogs
-- 🏆 **Système XP** : 50+ niveaux
-- 🎮 **Jeux intégrés** : 3+
-- 🔨 **Outils modération** : 8+
+- ⭐ **Features**: 50+ commands
+- 🔧 **Modules**: 12 cogs
+- 🏆 **XP System**: 50+ levels
+- 🎮 **Built-in games**: 3+
+- 🔨 **Moderation tools**: 8+
 
 ---
 
-## 📄 Licence
+## 📄 License
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 📈 Roadmap
 
-### 🚀 **Version 7.0 (Prochaine)**
-- [ ] 🎵 **Lecteur de musique** complet
-- [ ] 📈 **Dashboard web** pour configuration
-- [ ] 🎯 **Système de missions** et récompenses
-- [ ] 🔔 **Notifications** personnalisées
-- [ ] 📊 **Statistiques avancées** du serveur
+### 🚀 **Version 7.0 (Next)**
+- [ ] 🎵 **Complete music player**
+- [ ] 📈 **Web dashboard** for configuration
+- [ ] 🎯 **Mission system** and rewards
+- [ ] 🔔 **Custom notifications**
+- [ ] 📊 **Advanced server statistics**
 
 ### 🎯 **Version 7.1**
-- [ ] 🎮 **Mini-jeux** multijoueurs
-- [ ] 💰 **Économie virtuelle** avec magasin
-- [ ] 🎭 **Rôles temporaires** automatiques
-- [ ] 📱 **Application mobile** companion
+- [ ] 🎮 **Multiplayer mini-games**
+- [ ] 💰 **Virtual economy** with shop
+- [ ] 🎭 **Automatic temporary roles**
+- [ ] 📱 **Mobile companion app**
 
-### 🔮 **Futures Versions**
-- [ ] 🤖 **IA** pour modération automatique
-- [ ] 🌍 **Multi-langues** complet
-- [ ] ☁️ **Cloud hosting** intégré
-- [ ] 📊 **Analytics** avancées
+### 🔮 **Future Versions**
+- [ ] 🤖 **AI** for automatic moderation
+- [ ] 🌍 **Complete multi-language** support
+- [ ] ☁️ **Integrated cloud hosting**
+- [ ] 📊 **Advanced analytics**
 
 ---
 
-## 🙏 Remerciements
+## 🙏 Acknowledgments
 
-- **Discord.py** - Pour l'excellente librairie
-- **Krypton** - Pour le template de base
-- **Communauté Discord** - Pour les tests et retours
-- **Contributeurs** - Pour leurs améliorations
+- **Discord.py** - For the excellent library
+- **Krypton** - For the base template
+- **Discord Community** - For testing and feedback
+- **Contributors** - For their improvements
 
 ---
 
 <div align="center">
 
-**⭐ Si ce bot vous a aidé, n'hésitez pas à donner une étoile au projet ! ⭐**
+**⭐ If this bot helped you, feel free to give the project a star! ⭐**
 
 [![GitHub stars](https://img.shields.io/github/stars/Axekinn/Simple-Bot-Discord?style=social)](https://github.com/Axekinn/Simple-Bot-Discord/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Axekinn/Simple-Bot-Discord?style=social)](https://github.com/Axekinn/Simple-Bot-Discord/network)
